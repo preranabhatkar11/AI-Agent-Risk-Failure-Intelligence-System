@@ -251,31 +251,31 @@ The following screenshots demonstrate selected SQL queries and their outputs fro
 ### 1. High-Risk Executions with Failures
 
 Identifies high-risk executions that experienced failures.
-
+![High-Risk Executions with Failures](screenshots/risk_failure_analysis.png)
 ---
 
 ### 2. Executions Above Average Risk Score
 
 Uses a subquery to identify executions with risk scores above the overall average.
-
+![Executions Above Average Risk Score](screenshots/subquery_risk_analysis.png)
 ---
 
 ### 3. AI Agent KPI Summary
 
 Displays the overall KPI summary generated using the `ai_agent_kpis` view.
-
+![AI Agent KPI Summary](screenshots/kpi_view.png)
 ---
 
 ### 4. Risk Ranking Using Window Functions
 
 Uses the `RANK()` window function to rank executions according to their risk scores.
-
+![Risk Ranking Using Window Functions](screenshots/window_risk_ranking.png)
 ---
 
 ### 5. Risk Categorization Using CASE
 
 Categorizes executions into High Risk, Medium Risk, and Low Risk using a `CASE` statement.
-
+![Risk Categorization Using CASE](screenshots/risk_categorization.png)
 ---
 
 ## 📁 Project Structure
